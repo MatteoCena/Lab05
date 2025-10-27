@@ -187,6 +187,8 @@ def main(page: ft.Page):
     )
     # L'aggiornamento iniziale DEVE essere dopo aver aggiunto lista_auto alla page
     aggiorna_lista_auto()
+
+
 ft.app(target=main)
 
 

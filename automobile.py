@@ -11,6 +11,7 @@ class Automobile:
         stato = "Disponibile" if self.disponibile else "Noleggiata"
         return f"{self.codice} | {self.marca} {self.modello} ({self.anno}) | {self.posti} posti | {stato}"
 
+
     def __repr__(self):
         stato = "Disponibile" if self.disponibile else "Noleggiata"
         return f"{self.codice} | {self.marca} {self.modello} ({self.anno}) | {self.posti} posti | {stato}"

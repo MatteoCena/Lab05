@@ -1,3 +1,4 @@
+
 class Noleggio:
     contatore = 1
 
